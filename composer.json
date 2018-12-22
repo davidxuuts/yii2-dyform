@@ -1,18 +1,22 @@
 {
-	"name": "wbraganca/yii2-dynamicform",
+	"name": "davidxu/yii2-dyform",
 	"description": "yii2-dynamicform is a jquery plugin to clone form elements in a nested manner, maintaining accessibility.",
 	"keywords": ["yii2", "extension", "widget", "yii2-dynamicform", "copy DOM element", "yii2 dynamic form"],
 	"type": "yii2-extension",
 	"license": "BSD-3-Clause",
 	"support": {
-		"issues": "https://github.com/wbraganca/yii2-dynamicform/issues",
-		"wiki": "https://github.com/wbraganca/yii2-dynamicform/wiki/",
-		"source": "https://github.com/wbraganca/yii2-dynamicform"
+		"issues": "https://github.com/davidxu/yii2-dynamicform/issues",
+		"wiki": "https://github.com/davidxu/yii2-dynamicform/wiki/",
+		"source": "https://github.com/davidxu/yii2-dynamicform"
 	},
 	"authors": [
 		{
 			"name": "Wanderson Bragança",
 			"email": "wanderson.wbc@gmail.com"
+		},
+		{
+			"name": "David Xu",
+			"email": "david.xu.uts@163.com"
 		}
 	],
 	"require": {
@@ -21,6 +25,6 @@
 		"symfony/css-selector": "*"
 	},
 	"autoload": {
-		"psr-4": { "wbraganca\\dynamicform\\": "" }
+		"psr-4": { "davidxu\\dynamicform\\": "" }
 	}
 }

@@ -1,16 +1,17 @@
 <?php
 /**
- * @link      https://github.com/wbraganca/yii2-dynamicform
+ * @link      https://github.com/davidxuuts/yii2-dynamicform
  * @copyright Copyright (c) 2014 Wanderson Bragança
- * @license   https://github.com/wbraganca/yii2-dynamicform/blob/master/LICENSE
+ * @license   https://github.com/davidxuuts/yii2-dynamicform/blob/master/LICENSE
  */
 
-namespace wbraganca\dynamicform;
+namespace davidxu\dynamicform;
 
 /**
  * Asset bundle for dynamicform Widget
  *
  * @author Wanderson Bragança <wanderson.wbc@gmail.com>
+ * @modifier David Xu <david.xu.uts@163.com>
  */
 class DynamicFormAsset extends \yii\web\AssetBundle
 {
