@@ -21,7 +21,7 @@ class DynamicFormAsset extends \yii\web\AssetBundle
         'yii\web\JqueryAsset',
         'yii\widgets\ActiveFormAsset'
     ];
-
+    
     /**
      * Set up CSS and JS asset arrays based on the base-file names
      * @param string $type whether 'css' or 'js'
@@ -39,7 +39,7 @@ class DynamicFormAsset extends \yii\web\AssetBundle
             $this->$type = YII_DEBUG ? $srcFiles : $minFiles;
         }
     }
-
+    
     /**
      * @inheritdoc
      */
@@ -49,7 +49,7 @@ class DynamicFormAsset extends \yii\web\AssetBundle
         $this->setupAssets('js', ['yii2-dynamic-form']);
         parent::init();
     }
-
+    
     /**
      * Sets the source path if empty
      * @param string $path the path to be set
